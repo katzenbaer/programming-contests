@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD0A990D1ADF0522000C27CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0A990C1ADF0522000C27CE /* AppDelegate.swift */; };
+		CD0A990F1ADF0523000C27CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD0A990E1ADF0523000C27CE /* Images.xcassets */; };
+		CD0A99121ADF0523000C27CE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD0A99101ADF0523000C27CE /* MainMenu.xib */; };
+		CD0A991E1ADF0523000C27CE /* kstate_hspc_2014Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0A991D1ADF0523000C27CE /* kstate_hspc_2014Tests.swift */; };
+		CD0A99281ADF0621000C27CE /* AdvancedProblemSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0A99271ADF0621000C27CE /* AdvancedProblemSet.swift */; };
+		CD0A992A1ADF09C7000C27CE /* AdvancedProblemSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0A99271ADF0621000C27CE /* AdvancedProblemSet.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD0A99181ADF0523000C27CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD0A98FF1ADF0522000C27CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD0A99061ADF0522000C27CE;
+			remoteInfo = "kstate-hspc-2014";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD0A99071ADF0522000C27CE /* kstate-hspc-2014.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kstate-hspc-2014.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0A990B1ADF0522000C27CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD0A990C1ADF0522000C27CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD0A990E1ADF0523000C27CE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD0A99111ADF0523000C27CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CD0A99171ADF0523000C27CE /* kstate-hspc-2014Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kstate-hspc-2014Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0A991C1ADF0523000C27CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD0A991D1ADF0523000C27CE /* kstate_hspc_2014Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kstate_hspc_2014Tests.swift; sourceTree = "<group>"; };
+		CD0A99271ADF0621000C27CE /* AdvancedProblemSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvancedProblemSet.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD0A99041ADF0522000C27CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0A99141ADF0523000C27CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD0A98FE1ADF0522000C27CE = {
+			isa = PBXGroup;
+			children = (
+				CD0A99091ADF0522000C27CE /* kstate-hspc-2014 */,
+				CD0A991A1ADF0523000C27CE /* kstate-hspc-2014Tests */,
+				CD0A99081ADF0522000C27CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD0A99081ADF0522000C27CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD0A99071ADF0522000C27CE /* kstate-hspc-2014.app */,
+				CD0A99171ADF0523000C27CE /* kstate-hspc-2014Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD0A99091ADF0522000C27CE /* kstate-hspc-2014 */ = {
+			isa = PBXGroup;
+			children = (
+				CD0A990C1ADF0522000C27CE /* AppDelegate.swift */,
+				CD0A99271ADF0621000C27CE /* AdvancedProblemSet.swift */,
+				CD0A990E1ADF0523000C27CE /* Images.xcassets */,
+				CD0A99101ADF0523000C27CE /* MainMenu.xib */,
+				CD0A990A1ADF0522000C27CE /* Supporting Files */,
+			);
+			path = "kstate-hspc-2014";
+			sourceTree = "<group>";
+		};
+		CD0A990A1ADF0522000C27CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD0A990B1ADF0522000C27CE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD0A991A1ADF0523000C27CE /* kstate-hspc-2014Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CD0A991D1ADF0523000C27CE /* kstate_hspc_2014Tests.swift */,
+				CD0A991B1ADF0523000C27CE /* Supporting Files */,
+			);
+			path = "kstate-hspc-2014Tests";
+			sourceTree = "<group>";
+		};
+		CD0A991B1ADF0523000C27CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD0A991C1ADF0523000C27CE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD0A99061ADF0522000C27CE /* kstate-hspc-2014 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD0A99211ADF0523000C27CE /* Build configuration list for PBXNativeTarget "kstate-hspc-2014" */;
+			buildPhases = (
+				CD0A99031ADF0522000C27CE /* Sources */,
+				CD0A99041ADF0522000C27CE /* Frameworks */,
+				CD0A99051ADF0522000C27CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "kstate-hspc-2014";
+			productName = "kstate-hspc-2014";
+			productReference = CD0A99071ADF0522000C27CE /* kstate-hspc-2014.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD0A99161ADF0523000C27CE /* kstate-hspc-2014Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD0A99241ADF0523000C27CE /* Build configuration list for PBXNativeTarget "kstate-hspc-2014Tests" */;
+			buildPhases = (
+				CD0A99131ADF0523000C27CE /* Sources */,
+				CD0A99141ADF0523000C27CE /* Frameworks */,
+				CD0A99151ADF0523000C27CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD0A99191ADF0523000C27CE /* PBXTargetDependency */,
+			);
+			name = "kstate-hspc-2014Tests";
+			productName = "kstate-hspc-2014Tests";
+			productReference = CD0A99171ADF0523000C27CE /* kstate-hspc-2014Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD0A98FF1ADF0522000C27CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Terrence Katzenbaer";
+				TargetAttributes = {
+					CD0A99061ADF0522000C27CE = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					CD0A99161ADF0523000C27CE = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = CD0A99061ADF0522000C27CE;
+					};
+				};
+			};
+			buildConfigurationList = CD0A99021ADF0522000C27CE /* Build configuration list for PBXProject "kstate-hspc-2014" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD0A98FE1ADF0522000C27CE;
+			productRefGroup = CD0A99081ADF0522000C27CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD0A99061ADF0522000C27CE /* kstate-hspc-2014 */,
+				CD0A99161ADF0523000C27CE /* kstate-hspc-2014Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD0A99051ADF0522000C27CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0A990F1ADF0523000C27CE /* Images.xcassets in Resources */,
+				CD0A99121ADF0523000C27CE /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0A99151ADF0523000C27CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD0A99031ADF0522000C27CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0A99281ADF0621000C27CE /* AdvancedProblemSet.swift in Sources */,
+				CD0A990D1ADF0522000C27CE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0A99131ADF0523000C27CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0A992A1ADF09C7000C27CE /* AdvancedProblemSet.swift in Sources */,
+				CD0A991E1ADF0523000C27CE /* kstate_hspc_2014Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD0A99191ADF0523000C27CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD0A99061ADF0522000C27CE /* kstate-hspc-2014 */;
+			targetProxy = CD0A99181ADF0523000C27CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD0A99101ADF0523000C27CE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD0A99111ADF0523000C27CE /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD0A991F1ADF0523000C27CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD0A99201ADF0523000C27CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CD0A99221ADF0523000C27CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "kstate-hspc-2014/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD0A99231ADF0523000C27CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "kstate-hspc-2014/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD0A99251ADF0523000C27CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "kstate-hspc-2014Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kstate-hspc-2014.app/Contents/MacOS/kstate-hspc-2014";
+			};
+			name = Debug;
+		};
+		CD0A99261ADF0523000C27CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "kstate-hspc-2014Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kstate-hspc-2014.app/Contents/MacOS/kstate-hspc-2014";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD0A99021ADF0522000C27CE /* Build configuration list for PBXProject "kstate-hspc-2014" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0A991F1ADF0523000C27CE /* Debug */,
+				CD0A99201ADF0523000C27CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD0A99211ADF0523000C27CE /* Build configuration list for PBXNativeTarget "kstate-hspc-2014" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0A99221ADF0523000C27CE /* Debug */,
+				CD0A99231ADF0523000C27CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD0A99241ADF0523000C27CE /* Build configuration list for PBXNativeTarget "kstate-hspc-2014Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0A99251ADF0523000C27CE /* Debug */,
+				CD0A99261ADF0523000C27CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD0A98FF1ADF0522000C27CE /* Project object */;
+}

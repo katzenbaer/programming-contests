@@ -46,4 +46,41 @@ class AdvancedProblemSet {
         
         return friendSpeed - yourSpeed
     }
+    
+    //2 Advanced — Probability
+    //Write a program that takes as input the number n of games remaining in a certain baseball playoff series, the number k of wins needed for a specific team, and the probability p that this team will win a given game (this is a single probability that will remain the same for each game). The program will then output the probability that this team achieves at least the needed number of wins. To compute this probability, you can use the following formula (which assumes p is fixed):
+    //f(n, k) =
+    //8><>:
+    //0 if k > n
+    //1 if k = 0
+    //pf(n − 1, k − 1) + (1 − p)f(n − 1, k) otherwise
+    //For example to compute the probability of winning at least 2 out of 3 games with a probability of 0.6 for a single game:
+    //f(3, 2) = 0.6f(2, 1) + 0.4f(2, 2)
+    //f(2, 1) = 0.6f(1, 0) + 0.4f(1, 1)
+    //f(2, 2) = 0.6f(1, 1) + 0.4f(1, 2)
+    //f(1, 0) = 1
+    //f(1, 1) = 0.6f(0, 0) + 0.4f(0, 1)
+    //f(1, 2) = 0
+    //f(0, 0) = 1
+    //f(0, 1) = 0
+    //Then back-substituting:
+    //f(1, 1) = 0.6
+    //f(2, 2) = 0.6(0.6) = 0.36
+    //f(2, 1) = 0.6 + 0.4(0.6) = 0.84
+    //f(3, 2) = 0.6(0.84) + 0.4(0.36) = 0.648
+    //You may assume that both n and k are nonnegative integers less than 10 and that 0 _ p _ 1, (a probability of 0 means it is impossible, and a probability of
+    //1 means it is guaranteed).
+    //Example 1:
+    //Enter number of games: 3
+    //Enter number of wins: 2
+    //Enter win probability: .6
+    //Probability: 0.648
+    //Example 2:
+    //Enter number of games: 7
+    //Enter number of wins: 4
+    //Enter win probability: 0.45
+    //Probability: 0.391712203125
+    func problemTwo() {
+        
+    }
 }

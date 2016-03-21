@@ -21,6 +21,12 @@ class Solution(object):
 
 solution = Solution()
 
+res = solution.quicksort([])
+print res == []
+
+res = solution.quicksort([6])
+print res == [6]
+
 res = solution.mergesort([6, 5, 3, 1, 8, 7, 2, 4])
 print res == [1, 2, 3, 4, 5, 6, 7, 8]
 
